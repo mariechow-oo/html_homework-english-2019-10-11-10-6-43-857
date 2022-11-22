@@ -1,10 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HTML</title>
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8">
+  <title>HTML</title>
+  <style>
+    body {
+      font-family: times;
+    }
+
+    table {
+      padding: 10px;
+    }
+
+    th {
+      font-weight: normal;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding-right: 10px;
+    }
+
+    textarea {
+      width: 700px;
+      height: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Unified Modeling Language Theory Test</h1>
+  <form>
+    <table>
+      <thead>
+        <th>
+          Test Subject:
+        </th>
+        <th>
+          Unified Modeling Language
+        </th>
+        <th>
+          Time:
+        </th>
+        <th>
+          100 minute
+        </th>
+        <th>
+          Score:
+        </th>
+        <th>
+          100
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Class: </td>
+          <td><input type="text"></td>
+          <td>Student ID: </td>
+          <td><input type="text"></td>
+          <td>Name: </td>
+          <td></td>
+          <td><input type="text"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>1. Fill in the blanks(5 points per space, 20 points total)</h1>
+    <list>
+      <ol>
+        <li>The full name of UML in Chinese is: <input type="text"></li>
+        <li>The most prominent feature of the object is: <input type="text"> <input type="text"> <input type="text">
+        </li>
+      </ol>
+    </list>
+    <h1>2. Multiple choice question(10 points per space, 20 points total)</h1>
+    <list>
+      <ol>
+        <li>The relationship between UML and software engineering is:
+          <p>
+            <input type="radio" Name="q2.1" Value="A"> (A) UML is software engineering<br>
+            <input type="radio" Name="q2.1" Value="B"> (B) UML participates in several stages of the software
+            development
+            process in software engineering<br>
+            <input type="radio" Name="q2.1" Value="C"> (C) UML has nothing to do with software engineering<br>
+            <input type="radio" Name="q2.1" Value="D"> (D) UML is part of software engineering
+          </p>
+        </li>
+        <li>Java language support:
+          <p>
+            <input type="radio" Name="q2.2" Value="A"> (A) Single inheritance<br>
+            <input type="radio" Name="q2.2" Value="B"> (B) Multiple inheritance<br>
+            <input type="radio" Name="q2.2" Value="C"> (C) Single inheritance and multiple inheritance support<br>
+            <input type="radio" Name="q2.2" Value="D"> (D) Single inheritance and multiple inheritance are not supported
+          </p>
+        </li>
+      </ol>
+    </list>
+    <h1>3. Multiple choice(10 points per space, 20 points total)</h1>
+    <list>
+      <ol>
+        <li>The granularity of the use case is divided into the following three:
+          <p>
+            <input type="checkbox" Name="q3.1" Value="A"> (A) Overview level<br>
+            <input type="checkbox" Name="q3.1" Value="B"> (B) Demand level<br>
+            <input type="checkbox" Name="q3.1" Value="C"> (C) User target level<br>
+            <input type="checkbox" Name="q3.1" Value="D"> (D) Sub-fuction level
+          </p>
+        </li>
+        <li>The class diagram consists of which of the following three parts:
+          <p>
+            <input type="checkbox" Name="q3.2" Value="A"> (A) Name<br>
+            <input type="checkbox" Name="q3.2" Value="B"> (B) Attribute<br>
+            <input type="checkbox" Name="q3.2" Value="C"> (C) Operation<br>
+            <input type="checkbox" Name="q3.2" Value="D"> (D) Function
+          </p>
+        </li>
+      </ol>
+    </list>
+    <h1>4. True or False(10 points per space, 20 points total)</h1>
+    <list>
+      <ol>
+        <li>Use case diagrams are only used to communicate and communicate with customers to determine demand.
+          <input type="radio" Name="q4.1" Value="tick">√
+          <input type="radio" Name="q4.1" Value="cross">✕
+        </li>
+        <li>In the state diagram, the termination state allows any number of multiples in a state diagram.
+          <input type="radio" Name="q4.2" Value="tick">√
+          <input type="radio" Name="q4.2" Value="cross">✕
+        </li>
+      </ol>
+    </list>
+    <h1>5. Short answer question(20 points per space, 20 points total)</h1>
+    <list>
+      <ol>
+        <li>Briefly describe what the model is and how it behaves?</li>
+        <textarea></textarea>
+      </ol>
+    </list>
+    <input type="submit" value="Calculating score">
+  </form>
 </body>
+
 </html>
